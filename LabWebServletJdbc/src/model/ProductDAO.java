@@ -2,7 +2,7 @@ package model;
 
 import java.util.List;
 
-
+//測試修改2
 public interface ProductDAO {
 	public abstract ProductBean select(int id);
 	public abstract List<ProductBean> select();
