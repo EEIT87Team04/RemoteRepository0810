@@ -17,12 +17,12 @@
 <form action="<c:url value="/secure/login.controller" />" method="get">
 <table>
 	<tr>
-		<td>ID : </td>
+		<td>帳號 : </td>
 		<td><input type="text" name="username" value="${param.username}"></td>
 		<td>${errors.username}</td>
 	</tr>
 	<tr>
-		<td>PWD : </td>
+		<td>密碼 : </td>
 		<td><input type="text" name="password" value="${param.password}"></td>
 		<td>${errors.password}</td>
 	</tr>

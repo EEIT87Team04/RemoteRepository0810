@@ -1,8 +1,6 @@
 package model;
 
 import java.util.List;
-
-
 public interface ProductDAO {
 	public abstract ProductBean select(int id);
 	public abstract List<ProductBean> select();
