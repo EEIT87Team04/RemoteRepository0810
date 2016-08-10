@@ -13,7 +13,7 @@
 <script type="text/javascript" src="<c:url value="/js/json2.js" />"></script>
 <script type="text/javascript">
 function clearForm() {
-	jQuery("#idResult").text("");
+	$("#idResult").text("");
 	
 	var inputs = document.getElementsByTagName("input");
 	for(var i=0; i<inputs.length; i++) {
