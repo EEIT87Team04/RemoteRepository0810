@@ -27,10 +27,10 @@ public class LoginServlet extends HttpServlet {
 		request.setAttribute("errors", errors);
 
 		if(username==null || username.trim().length()==0) {
-			errors.put("username", "Please enter ID");
+			errors.put("username", "ID can't be EMPTY!");
 		}
 		if(password==null || password.trim().length()==0) {
-			errors.put("password", "Please enter PWD");
+			errors.put("password", "PWD can't be EMPTY!");
 		}
 		
 		if(errors!=null && !errors.isEmpty()) {
