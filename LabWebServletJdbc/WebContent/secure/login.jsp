@@ -17,7 +17,7 @@
 <form action="<c:url value="/secure/login.controller" />" method="get">
 <table>
 	<tr>
-		<td>ID : </td>
+		<td>USER : </td>
 		<td><input type="text" name="username" value="${param.username}"></td>
 		<td>${errors.username}</td>
 	</tr>
