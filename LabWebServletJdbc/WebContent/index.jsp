@@ -12,6 +12,7 @@
 <h3>Welcome ${user.email}</h3>
 <h4>commit 2</h4>
 <h5>commit 3</h5>
+<h6>commit 4</h6>
 
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
