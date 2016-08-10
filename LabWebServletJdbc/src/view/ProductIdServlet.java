@@ -86,10 +86,6 @@ public class ProductIdServlet extends HttpServlet {
 	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("method="+request.getMethod());
-<<<<<<< HEAD
-=======
-		System.out.println("finished");
->>>>>>> branch 'master' of https://github.com/EEIT87Team04/RemoteRepository0810.git
 		this.json(request, response);
 	}
 
