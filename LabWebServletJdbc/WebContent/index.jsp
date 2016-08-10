@@ -10,7 +10,8 @@
 <body>
 
 <h3>Welcome ${user.email}</h3>
-<h4>test 1<h4>
+<h4>test 1</h4>
+<h4>test 2</h4>
 
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
