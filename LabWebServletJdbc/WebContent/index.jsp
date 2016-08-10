@@ -14,8 +14,9 @@
 <h4>test 2</h4>
 <p>test 3</p>
 
-<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
-<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
+
+<h2>首頁!!!</h2>
+
 
 </body>
 </html>
